@@ -1,0 +1,92 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #landing-page {
+            text-align: center;
+        }
+
+        #landing-page button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #landing-page button:hover {
+            background: #0056b3;
+        }
+
+        #game-board {
+            text-align: center;
+        }
+
+        #board {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        #board div {
+            padding: 20px;
+            background: #fff;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #dice-result, #current-challenge {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+
+        #leaderboard ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #leaderboard ul li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
